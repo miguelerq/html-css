@@ -1,0 +1,27 @@
+header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to top, #004400, #88CC88);
+    color: white;
+    text-align: center;
+}
+header > nav {
+    text-align: left;
+    height: 35px;
+}
+nav> a:hover{
+    background-color: #88CC88;
+    color: #004400;
+    transition-duration: 0.5s;    /*NEW*/
+    padding:5px 5px 20px 5px;
+}
+nav > a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+padding: 10px;
+border-radius: 10px;
+}
+header p{
+    font-size: 1.2em;
+    padding: 10px;
+    }
