@@ -11,8 +11,8 @@ header > nav {
 nav> a:hover{
     background-color: #88CC88;
     color: #004400;
-    transition-duration: 0.5s;    /*NEW*/
-    padding:5px 5px 20px 5px;
+    transition-duration: 0.1s;    /*NEW*/
+    padding:5px 5px 5px 5px;
 }
 nav > a {
 text-decoration: none;
